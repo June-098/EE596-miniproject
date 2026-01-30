@@ -16,6 +16,7 @@
 
 ### Import necessary libraries: here you will use streamlit library to run a text search demo, please make sure to install it.
 import streamlit as st
+api_key = st.secrets["OPENAI_API_KEY"]
 import numpy as np
 import numpy.linalg as la
 import pickle
