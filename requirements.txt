@@ -1,26 +1,16 @@
-# Core app
 streamlit==1.53.1
 
-# OpenAI API
 openai==1.97.1
-
-# Numerical / ML
 numpy==1.26.4
+pandas==2.3.1
 scikit-learn==1.8.0
 scipy==1.17.0
-pandas==2.3.1
 
-# Sentence embeddings
-sentence-transformers==2.7.0
-transformers==4.44.2
-torch==2.3.1
-
-# Downloading models / files
 gdown==5.2.0
 requests==2.32.5
-
-# Plotting
+tqdm==4.67.1
 matplotlib==3.9.2
 
-# Utilities
-tqdm==4.67.1
+torch==2.3.1
+transformers==4.44.2
+sentence-transformers==2.7.0
