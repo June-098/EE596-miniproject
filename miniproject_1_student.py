@@ -27,8 +27,8 @@ import matplotlib.pyplot as plt
 import math
 import re
 from openai import OpenAI  # Added for OpenAI embeddings
-with open('open_ai_key.txt', 'r') as f:
-    os.environ["OPENAI_API_KEY"] = f.read().strip()
+# with open('open_ai_key.txt', 'r') as f:
+#     os.environ["OPENAI_API_KEY"] = f.read().strip()
 
 
 ### Some predefined utility functions for you to load the text embeddings
